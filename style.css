@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding:0 ;
+    overflow-x: hidden;
+}
+#img1{
+    height: 40px;
+}
+#back{
+    position: relative;
+    top: 10px;
+    left: 0px;
+    height: 395px;
+    width: 1490px;
+    background-size: cover;
+}
+#img2{
+    position: absolute;
+    top: 3px;
+    right: 200px;
+    text-align: center;
+    font-size: 25px;
+}
+#img02{
+    position: relative;
+    height: 40px;
+}
+span{
+    position: absolute;
+    top: 3px;
+    white-space: nowrap;
+    text-decoration: 15px solid ;
+}
+#f01{
+    position: absolute;
+    top: 10px;
+    color: white;
+    font-size: 30px;
+    margin: 100px;
+}
+#f02{
+    position: absolute;
+    top: 80px;
+    color: white;
+    font-size: 30px;
+    margin: 100px;
+}
+#f03{
+    position: absolute;
+    top: 150px;
+    color: white;
+    font-size: 30px;
+    margin: 100px;
+}
+#f04{
+    position: absolute;
+    top: 219px;
+    color: white;
+    font-size: 20px;
+    margin: 100px;
+}
+#space{
+    height: 100px;
+}
+#books img{
+    height: 250px;
+    width: 170px;
+}
+#boooks{
+    position:relative;
+    margin: 50px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6,230px);
+  }
+#discover{
+    position: relative;
+    top: 40px;
+}
+h3{
+    font-size: 17px;
+}
+h6{
+    position: relative;
+    font-size: 12px;
+    top: 5px;
+    color: #80807e;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+h4{
+    position: relative;
+    top: 15px
+}
+#button1{
+    margin: 25px;
+    position: relative;
+    top: -80px;
+    left: 150px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#smallcart{
+    height: 12.5px;
+    width: 13.7px;
+    position: relative;
+
+    /* border: 1px solid black; */
+}
+#dis{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+#gaamess{
+    position:relative;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,380px);
+}
+#games img{
+    height: 250px;
+    width: 250px;
+}
+#foot{
+    background-color: black;
+    color: white;
+}
+#button2{
+    margin: 25px;
+    position: relative;
+    top: -80px;
+    left: 285px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#button3{
+    margin: 25px;
+    position: relative;
+    top: -80px;
+    left: 410px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#button4{
+    margin: 25px;
+    position: relative;
+    top: -80px;
+    left: 550px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#button5{
+    margin: 25px;
+    position: relative;
+    top: -80px;
+    left: 675px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#button6{
+    margin: 25px;
+    position: relative;
+    top: -80px;
+    left: 810px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#button7{
+    margin: 25px;
+    position: relative;
+    top: -87px;
+    left: 230px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#button8{
+    margin: 25px;
+    position: relative;
+    top: -87px;
+    left: 510px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#button9{
+    margin: 25px;
+    position: relative;
+    top: -87px;
+    left: 790px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#button10{
+    margin: 25px;
+    position: relative;
+    top: -87px;
+    left: 1070px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#button11{
+    margin: 25px;
+    position: relative;
+    top: -87px;
+    left: 230px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#button12{
+    margin: 25px;
+    position: relative;
+    top: -87px;
+    left: 510px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#button13{
+    margin: 25px;
+    position: relative;
+    top: -87px;
+    left: 790px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#button14{
+    margin: 25px;
+    position: relative;
+    top: -87px;
+    left: 1075px;
+    height: 25px;
+    width: 45px;
+    background-color: #6596f2;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 12.5px;
+    text-align: left;
+}
+#girl{
+    width: 7.5%;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 80% ;
+}
+#girll{
+    border: 1px solid black;
+    border-radius: 0% ;
+    margin: 0px;
+}
+#fot{
+    margin: 50px;
+    height: 150px;
+    font-size: 25px;
+}
+footer{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+p{
+    font-size: 15px;
+}
+#end{
+    text-align: right;
+    position: relative;
+    top: -100px;
+}
